@@ -2,6 +2,9 @@ package net.gus.gaggle;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gus.gaggle.block.ModBlocks;
+import net.gus.gaggle.item.ModItemGroups;
+import net.gus.gaggle.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,9 @@ public class Gaggle implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItemGroups.registerItemGroups();
 
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }
