@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gaggle",
+	"version": "${version}",
+	"name": "Gaggle",
+	"description": "A Mod About Ducks!!",
+	"authors": [
+		"Gus"
+	],
+	"contact": {
+		"homepage": "https://youtube.com/@angusgreif",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/gaggle/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gus.gaggle.Gaggle"
+		],
+		"fabric-datagen": [
+			"net.gus.gaggle.GaggleDataGenerator"
+		],
+      "client": [
+        "net.gus.gaggle.GaggleClient"
+      ]
+	},
+	"mixins": [
+		"gaggle.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
