@@ -16,6 +16,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.DUCKSTEEL_BLOCK))
                     .displayName(Text.translatable("itemgroup.gaggle.ducksteel_block_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.DUCKSTEEL_ORE);
+                        entries.add(ModBlocks.DUCKSTEEL_DEEPSLATE_ORE);
                         entries.add(ModBlocks.DUCKSTEEL_BLOCK);
                         entries.add(ModBlocks.RAW_DUCKSTEEL_BLOCK);
                         entries.add(ModItems.DUCKSTEEL_INGOT);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "ducksteel",
+  "ingredient": {
+    "item": "gaggle:raw_ducksteel"
+  },
+  "result": {
+    "id": "gaggle:ducksteel_ingot"
+  }
+}
