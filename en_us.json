@@ -1,0 +1,13 @@
+{
+  "item.gaggle.pink_garnet": "Pink Garnet",
+  "item.gaggle.raw_ducksteel": "Raw Ducktanium",
+  "item.gaggle.ducksteel_ingot": "Ducktanium Ingot",
+  "item.gaggle.chisel": "Chisel",
+
+  "block.gaggle.ducksteel_block": "Block Of Ducktanium",
+  "block.gaggle.raw_ducksteel_block": "Block Of Raw Ducktanium",
+  "block.gaggle.ducksteel_ore": "Ducktanium Ore",
+  "block.gaggle.ducksteel_deepslate_ore": "Deepslate Ducktanium Ore",
+
+  "itemgroup.gaggle.ducksteel_block_items": "Gaggle"
+}
